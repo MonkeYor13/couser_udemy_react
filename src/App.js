@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
-import "./App.css";
+import logo from "./assets/imagenes/logo.svg";
+import "./assets/css/App.css";
 
 // agregamos funciones
 function HolaMundo(example, edad) {
