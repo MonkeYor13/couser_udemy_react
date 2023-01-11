@@ -1,11 +1,16 @@
 import React from "react";
+import "./assets/css/App.css";
 
 //import de components files
 import Header from "./components/Header";
+import Slider from "./components/Slider";
 
 function App() {
 	return (
-		<Header/>
+		<div className="App">
+			<Header />
+			<Slider />
+		</div>
 	);
 }
 
