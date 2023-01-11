@@ -1,6 +1,10 @@
 import logo from "./assets/imagenes/logo.svg";
 import "./assets/css/App.css";
 
+//import de components files
+import MiComponente from "./components/MiComponente";
+import Peliculas from "./components/Pelicules";
+
 // agregamos funciones
 function HolaMundo(example, edad) {
 	var present2 = (
@@ -26,8 +30,7 @@ function App() {
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
 				</p>
-				{/* puedeo agregar alERTAS, llamar objetos de HTML y funciones */}
-				{alert("hola soy yorvis")}
+				{/* {alert("hola soy yorvis")} */}
 				{present}
 				{HolaMundo(example, edad)}
 				<a
@@ -39,6 +42,10 @@ function App() {
 					Learn React
 				</a>
 			</header>
+			<section>
+				<MiComponente />
+				<Peliculas />
+			</section>
 		</div>
 	);
 }
