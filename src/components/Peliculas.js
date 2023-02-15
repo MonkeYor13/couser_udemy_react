@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MesajeStatico from "./MensajeStatico";
 
-class Peliculas extends Component {
+export class Peliculas extends Component {
 	state = {};
 	render() {
 		return (
@@ -13,4 +13,4 @@ class Peliculas extends Component {
 	}
 }
 
-export default Peliculas;
+
